@@ -1,14 +1,15 @@
+/*初始化页面，设置页面总体尺寸*/
 *{
 	margin: 0;
 	padding: 0;
 }
 .contains{
 	width: 990px;
-	height: 1800px;
-	background: red;
+	height: 1799px;
 	margin: auto;
 }
 
+/*2016年8月5日19:53:28，设置了页眉，导航，主体部分和页脚的格式与布局*/
 header{
 	width: 990px;
 	height: 251px;
@@ -18,20 +19,22 @@ header{
 nav{
 	width: 990px;
 	height: 40px;
-	background: gold;
+	background-image: url(../img/nav_bg.gif);
+	
 }
 
 .middle_top{
 	width: 990px;
 	height: 63px;
 	background-image: url(../img/middle_top.gif);
+	margin-top: 5px;
 }
 
 .middle_left{
 	width: 246px;
 	height: 1200px;
-	background: darkslategray;
 	float: left;
+	background: wheat;
 }
 
 .middle_center{
@@ -56,3 +59,82 @@ footer{
 	height: 245px;
 	background-image: url(../img/footer.gif);
 }
+
+/*导航栏部分的样式*/
+nav ul li{
+	width: 87px;
+	height: 28px;
+	list-style: none;
+	line-height: 25px;
+	text-align: center;
+	float: left;
+	margin-top: 5px;
+	margin-left: 3px;
+	background-image: url(../img/button_bg.jpg);
+	border-bottom:1px solid black ;
+	border-top:1px solid gainsboro ;
+	border-left:1px solid gainsboro ;
+	border-right:1px solid black ;
+}
+
+nav ul li a{
+	display: block;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;	
+}
+
+nav ul li:hover{
+	border-bottom:1px solid gainsboro ;
+	border-top:1px solid black ;
+	border-left:1px solid black ;
+	border-right:1px solid gainsboro ;
+}
+
+nav ul li:hover .menu{
+	margin-left: -5px;
+	display: block;
+}
+
+/*菜单下的子菜单样式*/
+.menu{
+	display: none;
+	
+}
+
+/*中间部分的左半部分middle_left的设计*/
+.middle_left_first{
+	width: 246px;
+	height: 43px;
+	background-image: url(../img/dack_blue_top.gif);
+	margin-top: 5px;
+}
+
+.middle_left_first a{
+	text-decoration: none;
+	color: white;
+	font-family: '微软雅黑';
+	font-size:20px;
+	margin-left: 25px;
+}
+
+/*中间部分的中间部分的设计*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
