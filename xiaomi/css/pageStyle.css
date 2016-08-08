@@ -2,10 +2,11 @@
  *鼠标滑过菜单项显示图片
  * */
 .contains{
-	width: 1226px;
+	width: 1380px;
 	height: 66px;
 	border: 1px solid red;
 	margin: auto;
+	margin-top: 25px;
 	background: #b0b0b0;
 }
 
@@ -23,7 +24,7 @@
 	width: 1303px;
 	height: 0px;
 	position: absolute;
-	top: 60px;
+	top: 190px;
 	left: 350px;
 	background-image: url(../img/pic.png);
 	transition: height 0.5s;
@@ -42,14 +43,77 @@
 	color: white;
 }
 
+.menu2 li{
+	list-style: none;
+	float: right;
+	margin-right: 20px;
+}
+
+.menu2 li a{
+	text-decoration: none;
+}
+.pen{
+	width: 1380px;
+	height: 460px;
+	background: black;
+	margin: auto;
+	margin-top: 25px;
+}
+
+/*侧边栏*/
+/*.bow{
+	width: 1226px;
+	height: 520px;
+	border: 1px solid red;
+	margin: auto;
+	margin-top: 25px;
+}*/
+.cebian{
+	width: 150px;
+	height: 460px;
+	border: 1px solid red;
+	background: #B0B0B0;
+	float: left;
+}
+
+.cebian ul li{
+	list-style: none;
+	margin-top: 30px;
+}
+
+.cebian ul li a{
+	text-decoration: none;
+}
+
+.cebian ul li:hover a{
+	background: red;
+	color: white;
+}
+
+.cebian .pic div{
+	width: 460px;
+	height: 460px;
+	position: absolute;
+	left: 500px;
+	top: 215px;
+	border: 1px solid red;
+	background-image: url(../img/cebian.jpg);
+	display: none;
+}
+
+.cebian ul li:hover div{
+	display: block;
+}
+
 /*展示图片左右滚动显示*/
 .img{
 	width: 1226px;
 	height: 460px;
 	border: 1px solid red;
-	margin: auto;
-	margin-top: 20px;
+	/*margin: auto;*/
+	/*margin-top: 20px;*/
 	overflow: hidden;
+	float: left;
 }
 
 .img:hover .img_01{
@@ -83,95 +147,45 @@
 	background-image: url(../img/img2.jpg);
 }
 
-/*侧边栏*/
-.bow{
-	width: 1226px;
-	height: 520px;
+/*底部*/
+.btnDiv{
+	width: 1380px;
+	height: 230px;
 	border: 1px solid red;
 	margin: auto;
 	margin-top: 25px;
 }
-.cebian{
-	width: 150px;
-	height: 500px;
-	border: 1px solid red;
+
+.footer{
+	width: 310px;
+	height: 160px;
+	border: 1px solid black;
 	background: #B0B0B0;
 	margin-top: 5px;
-}
-
-.cebian ul li{
-	list-style: none;
-	margin-top: 30px;
-}
-
-.cebian ul li a{
-	text-decoration: none;
-}
-
-.cebian ul li:hover a{
-	background: red;
-	color: white;
-}
-
-.cebian .pic div{
-	width: 460px;
-	height: 460px;
-	position: absolute;
-	left: 510px;
-	top: 575px;
-	border: 1px solid red;
-	background-image: url(../img/cebian.jpg);
-	display: none;
-}
-
-.cebian ul li:hover div{
-	display: block;
-}
-
-/*底部*/
-.footer{
-	width: 305px;
-	height: 155px;
-	border: 1px solid black;
-	/*margin: auto;*/
-}
-
-.footest{
-	width:990px;
-	height: 245px;
-	background-image: url(../img/footer.gif);
-	margin: auto;
-}
-
-.btnStyle{
-	width: 1226px;
-	height: 200px;
-	border: 1px solid red;
-	margin: auto;
-	margin-top: 25px;
+	margin-left: 25px;
 }
 
 /*栅栏列表*/
 .list{ 
-	width: 1226px;
-	height: 600px;
+	width: 1380px;
+	height: 630px;
 	border: 1px solid red;
 	margin: auto;
 	margin-top: 25px;
+}
 
-
-.list_pic{
+.list .list_pic{
 	width: 230px;
 	height: 230px;
-	background: url(../img/picture4.jpg);
+	background-image: url(../img/picture4.jpg);
 	float: left;
 	margin-top: 25px;
-	margin-left: 10px;
+	margin-left: 35px;
 	transition: all 0.8s;
 }
 
 .list .list_pic:hover{
-	box-shadow: 10px 5px 10px black;
+	box-shadow: 10px 15px 10px black;
 }
 
 .list .list_pic a{
@@ -181,12 +195,17 @@
 	background: white;
 	opacity: 0.6;
 }
-
 .list .list_pic:hover a{
 	display: block;
 }
 
-
+.footest{
+	width:990px;
+	height: 245px;
+	background-image: url(../img/footer.gif);
+	margin: auto;
+	margin-top: 25px;
+}
 
 
 
