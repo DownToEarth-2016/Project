@@ -1,0 +1,197 @@
+/*2016年8月8日12:21:18
+ *鼠标滑过菜单项显示图片
+ * */
+.contains{
+	width: 1226px;
+	height: 66px;
+	border: 1px solid red;
+	margin: auto;
+	background: #b0b0b0;
+}
+
+.menu li{
+	list-style: none;
+}
+
+.menu li a{
+	text-decoration: none;
+	float: left;
+	margin-left: 20px;
+}
+
+.contains .menu .pro{
+	width: 1303px;
+	height: 0px;
+	position: absolute;
+	top: 60px;
+	left: 350px;
+	background-image: url(../img/pic.png);
+	transition: height 0.5s;
+}
+
+.menu li:hover .pro{
+	height: 230px;	
+}
+
+.menu li:hover a{
+	color: wheat;
+}
+
+.span{
+	margin-left: 10px;
+	color: white;
+}
+
+/*展示图片左右滚动显示*/
+.img{
+	width: 1226px;
+	height: 460px;
+	border: 1px solid red;
+	margin: auto;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.img:hover .img_01{
+	margin-left: -1226px;
+	transition: margin-left 2s; 
+}
+/*.img:hover .img_01{
+	animation: myAnimation 2s;
+}*/
+/*@keyframes myAnimation{
+	from{margin-left: 0px;}
+	to{margin-left: -1226px;}
+}*/
+
+.img .img_01{
+	width: 2452px;
+	height: 460px;	
+}
+
+.img .img_01 div{
+	width: 1226px;
+	height: 460px;
+	float: left;
+}
+
+.img .img_01 .img_01_01{
+	background-image: url(../img/img1.jpg);
+}
+
+.img .img_01 .img_01_02{
+	background-image: url(../img/img2.jpg);
+}
+
+/*侧边栏*/
+.bow{
+	width: 1226px;
+	height: 520px;
+	border: 1px solid red;
+	margin: auto;
+	margin-top: 25px;
+}
+.cebian{
+	width: 150px;
+	height: 500px;
+	border: 1px solid red;
+	background: #B0B0B0;
+	margin-top: 5px;
+}
+
+.cebian ul li{
+	list-style: none;
+	margin-top: 30px;
+}
+
+.cebian ul li a{
+	text-decoration: none;
+}
+
+.cebian ul li:hover a{
+	background: red;
+	color: white;
+}
+
+.cebian .pic div{
+	width: 460px;
+	height: 460px;
+	position: absolute;
+	left: 510px;
+	top: 575px;
+	border: 1px solid red;
+	background-image: url(../img/cebian.jpg);
+	display: none;
+}
+
+.cebian ul li:hover div{
+	display: block;
+}
+
+/*底部*/
+.footer{
+	width: 305px;
+	height: 155px;
+	border: 1px solid black;
+	/*margin: auto;*/
+}
+
+.footest{
+	width:990px;
+	height: 245px;
+	background-image: url(../img/footer.gif);
+	margin: auto;
+}
+
+.btnStyle{
+	width: 1226px;
+	height: 200px;
+	border: 1px solid red;
+	margin: auto;
+	margin-top: 25px;
+}
+
+/*栅栏列表*/
+.list{ 
+	width: 1226px;
+	height: 600px;
+	border: 1px solid red;
+	margin: auto;
+	margin-top: 25px;
+
+
+.list_pic{
+	width: 230px;
+	height: 230px;
+	background: url(../img/picture4.jpg);
+	float: left;
+	margin-top: 25px;
+	margin-left: 10px;
+	transition: all 0.8s;
+}
+
+.list .list_pic:hover{
+	box-shadow: 10px 5px 10px black;
+}
+
+.list .list_pic a{
+	display: none;
+	width: 240px;
+	height: 240px;
+	background: white;
+	opacity: 0.6;
+}
+
+.list .list_pic:hover a{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
